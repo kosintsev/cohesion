@@ -1,0 +1,1 @@
+**Cohesion** is an attempt to create a php web framework with a true object-oriented design, following the principles of cohesion in classes. 

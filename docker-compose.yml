@@ -1,0 +1,12 @@
+version: "2"
+services:
+  app-cohesion:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./public:/var/www/html/
+      - ./vendor:/var/www/vendor/
+      - ./src/main:/var/www/src/main/
+    networks:
+      - default
